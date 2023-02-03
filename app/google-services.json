@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "680205262555",
+    "project_id": "videochat-3088e",
+    "storage_bucket": "videochat-3088e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680205262555:android:48fdf385edbb8fb394f6fe",
+        "android_client_info": {
+          "package_name": "com.codewithvaibhav.videochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680205262555-lhddoo820vi8rojo0ai638dkf4dtcfhs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codewithvaibhav.videochat",
+            "certificate_hash": "e0afb59923cc85f9f83b5464f74b4f523740f04f"
+          }
+        },
+        {
+          "client_id": "680205262555-bcsgccbjn4b2lnkgjfuhj3ka9mlkhoo7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz-w8iNfGgYbanf3p1KjFiRxsFClFPp7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680205262555-bcsgccbjn4b2lnkgjfuhj3ka9mlkhoo7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
