@@ -7,99 +7,36 @@
     android:background="@drawable/login_page_gradient"
     tools:context=".activities.LoginActivity">
 
-    <LinearLayout
-        android:id="@+id/layout1"
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingLeft="20dp"
-        android:paddingTop="20dp"
-        android:paddingRight="20dp"
-        android:paddingBottom="20dp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp">
-
-        <TextView
-            android:id="@+id/appName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Talker"
-            android:textColor="@color/black"
-            android:textSize="50sp" />
-
-        <TextView
-            android:id="@+id/logscr_text1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Random Video Chat"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/view_rounded_corner"
-        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layout1">
-
-    </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="301dp"
-        android:layout_height="312dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layout1"
-        app:srcCompat="@drawable/logindes" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Please login to continue"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="By continuing, you are agreeing to out terms and condition"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginBtn" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/login_page_bg_design" />
 
     <LinearLayout
         android:id="@+id/loginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginBottom="150dp"
         android:background="@drawable/pagetwobtn"
         android:gravity="center"
         android:orientation="horizontal"
         android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5">
+        app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
             android:id="@+id/imageView9"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
             app:srcCompat="@drawable/google" />
 
         <TextView
@@ -107,7 +44,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="7dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppins"
+            android:paddingTop="7dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="7dp"
             android:text="Sign in with Google"
             android:textColor="@color/black"
             android:textSize="16sp"
